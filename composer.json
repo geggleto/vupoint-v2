@@ -1,0 +1,28 @@
+{
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Glenn Eggleton",
+      "email": "geggleto@gmail.com"
+    }
+  ],
+  "autoload" : {
+    "psr-4" : {
+      "VuPoint\\" : "src"
+    }
+  },
+  "autoload-dev" : {
+    "psr-4" : {
+      "VuPoint\\Tests\\" : "test"
+    }
+  },
+  "require-dev" : {
+    "phpunit/phpunit" : "4.*"
+  },
+  "scripts" : {
+    "test" : "call vendor/bin/phpunit test"
+  },
+  "require": {
+    "slim/slim": "^2.6"
+  }
+}
